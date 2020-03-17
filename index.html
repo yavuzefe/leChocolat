@@ -3,18 +3,17 @@
 
 <head>
     <title>Le Chocolat</title>
-
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"> Le Chocolat</a>
@@ -24,10 +23,14 @@
             <div id="Navbar" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <!-- link listesini yanyana getirir -->
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><span
+                                class="fa fa-home fa-lg"></span>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><span
+                                class="fa fa-info fa-lg"></span>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span
+                                class="fa fa-address-card fa-lg"></span>Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,6 +50,14 @@
         </div>
     </header>
 
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item"><a href="aboutus.html">About Us</a></li>
+            </ol>
+        </nav>
+    </div>
     <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
@@ -88,30 +99,38 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-5 col-sm-4">
+                <div class="col-6 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
                         121, Clear Wave Road<br>
                         Clear Wave Road, Aloha<br>
                         HAWAII<br>
-                        Tel.: +987 6543 2100<br>
-                        Fax: +987 6543 2101<br>
-                        Email: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
+                        <span class="fa fa-phone fa-lg"></span> Tel.: +987 6543 2100<br>
+                        <span class="fa fa-fax fa-lg"></span> Fax: +987 6543 2101<br>
+                        <span class="fa fa-envelope fa-lg"></span> Email: <a
+                            href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
                     </address>
                 </div>
-                <div class="col col-sm-4 align-self-center">
-                    <div style="text-align: center;">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                <div class="col col-sm-4">
+                    <div class="col-auto" style="text-align: center;">
+                        <div style="text-align: center;">
+                            <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i
+                                    class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-facebook"
+                                href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin " href="http://www.linkedin.com/in/"><i
+                                    class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                                    class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
