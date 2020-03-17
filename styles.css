@@ -19,3 +19,7 @@ z-index: 0;}
 .bg-light{
     background-color: #dbb08d !important;
 }
+.table .thead-dark th {color: floralwhite;
+background-color: #6e3f19;}
+
+tr:hover {background-color: #dbb08db0 !important;}
