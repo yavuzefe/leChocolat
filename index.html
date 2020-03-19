@@ -47,6 +47,7 @@
     </header>
 
     <div class="container">
+
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Home</li>
@@ -102,9 +103,96 @@
             </div>
         </div>
 
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-8">
+                <div class="card">
+                    <h3 class="card-header bg-warning mb-3 text-white">Reserve Your Baskets</h3>
+                    <div class="card-body">
+                        <form action="#" method="GET">
+                            <fieldset class="form-group">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <legend class="col-form-label">Number of baskets</legend>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="basketnumber" id="bn1" value="1">
+                                            <label class="form-check-label" for="bn1">1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="basketnumber" id="bn2" value="2">
+                                            <label class="form-check-label" for="bn2">2</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="basketnumber" id="bn3" value="3">
+                                            <label class="form-check-label" for="bn3">3</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="basketnumber" id="bn4" value="4">
+                                            <label class="form-check-label" for="bn4">4</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="basketnumber" id="bn5" value="5">
+                                            <label class="form-check-label" for="bn5">5</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="basketnumber" id="bn6" value="6">
+                                            <label class="form-check-label" for="bn6">6</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+        
+                            <!-- <div class="form-group-row">
+                                                    <div class="col-sm-4">
+                                                    Number of baskets
+                                                    </div>
+                                                    <div class="form-check col-md-3">
+                                                        <input class="form-check-input position-static" type="radio" id="bn1" name="basketnumber" value="1" aria-label="1">
+                                                        <label class="" for="bn1">1 </label>
+                                                        <input type="radio" id="bn2" name="basketnumber" value="2">
+                                                        <label class="" for="bn2">2 </label>
+                                                        <input type="radio" id="bn3" name="basketnumber" value="3">
+                                                        <label class="" for="bn3">3 </label>
+                                                        <input type="radio" id="bn4" name="basketnumber" value="4">
+                                                        <label class="" for="bn4">4 </label>
+                                                        <input type="radio" id="bn5" name="basketnumber" value="5">
+                                                        <label class="" for="bn5">5 </label>
+                                                        <input type="radio" id="bn6" name="basketnumber" value="6">
+                                                        <label class="" for="bn6">6 </label>
+                                                    </div>
+                                                    </div> -->
+                            <div class="row">
+                                <div class="input-group">
+                                    <div class="col-sm-4">
+                                        <legend class="col-form-label">Date and Time</legend>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="input-icons">
+                                            <div class="input-group-addon"><i class="fa fa-calendar fa-2x"></i></div>
+                                        </div>
+                                        <input type="date" class="form-control" id="reserveday" name="reserveday">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                        <input type="time" class="form-control" id="reservetime" name="reservetime">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group-row">
+                                <button type="submit" class="btn btn-primary"> Reserve </button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+
     </div>
 
-        <footer class="footer">
+    <footer class="footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-5 offset-1 col-sm-2">
@@ -153,13 +241,13 @@
                         </div>
                     </div>
                 </div>
-        </footer>
+    </footer>
 
-            <!-- jQuery first, then Tether, then Bootstrap JS. -->
-            <script src="node_modules/jquery/dist/jquery.min.js"></script>
-            <script src="node_modules/tether/dist/js/tether.min.js"></script>
-            <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

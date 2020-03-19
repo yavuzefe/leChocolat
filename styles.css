@@ -23,3 +23,9 @@ z-index: 0;}
 background-color: #6e3f19;}
 
 tr:hover {background-color: #dbb08db0 !important;}
+
+.tab-content {border-left:solid 1px #ddd;
+border-right:solid 1px #ddd;
+border-bottom:solid 1px #ddd;
+padding: 10px;
+}
